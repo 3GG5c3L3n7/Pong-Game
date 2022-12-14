@@ -31,6 +31,10 @@ https://trinket.io/docs/colors
 https://docs.python.org/3/library/random.html#random.choice
 https://www.geeksforgeeks.org/create-pong-game-using-python-turtle/
 https://stackoverflow.com/questions/42107249/how-to-add-exception-to-random-randint-in-python
+https://stackoverflow.com/questions/71247245/how-do-you-use-dx
+
+Repl:https://replit.com/@TheBambbozler/My-Pong-Game#main.py
+Github: https://github.com/3GG5c3L3n7/Pong-Game
 """
 import turtle
 from random import choice
@@ -143,6 +147,7 @@ right_pad.penup()
 right_pad.goto(400,0)
 
 #game loop
+#ALSO, dx and dy are x and y velocities, so multiplying by a # will abruptly change direction FOR EXAMPLE, if x were 2 and y were 0, it would move left, if x were -2 and y was -8, it would move downward while moving left very little.
 while True:
     sc.update()
     ball.setx(ball.xcor()+ball.dx)
