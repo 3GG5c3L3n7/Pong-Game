@@ -13,14 +13,14 @@ Used Turtle Graphics Functions:
 goto() : sets turtle to go somewhere
 setx() : sets x coordinate
 sety() : sets y coordinate
-position() : sets turtle position
 xcor() : variable for x coord
 ycor() : variable for y coord
 penup() : stops turtle from drawing
 color() : sets turtle color
-hideturtle() : makes turtle invisible
 shape() : creates turtle shape
 bgcolor() : sets background color
+position() : sets turtle position
+hideturtle() : makes turtle invisible
 onkeypress() : activates when a key is pressed
 
 Resources Used:
